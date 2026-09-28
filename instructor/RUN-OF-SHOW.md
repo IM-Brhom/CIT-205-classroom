@@ -10,10 +10,10 @@
 
 **Win condition:** every student submits one complete draft that includes verification and escalation.
 
-## Class 2 — GitHub Onboarding and Publication
+## Class 2 — GitHub Onboarding and Contribution
 
-1. Direct students to the repository front page.
-2. Complete [Start Here](../onboarding/START-HERE.md) and the welcome issue.
+1. Direct students to the public `CIT-205-classroom` repository.
+2. Complete [Start Here](../onboarding/START-HERE.md) and the welcome issue as needed.
 3. Demonstrate repository → folder → file → History.
 4. Show the example article and its revision.
 5. Demonstrate fork → branch → file → commit → pull request.
@@ -21,22 +21,50 @@
 
 **Win condition:** every student can find an article and has an open pull request or a documented blocker.
 
-## Class 3 — Peer Review and Version Control
+### Monday migration note
 
-1. Assign each student a peer pull request.
-2. Review with the [checklist](../assignments/PEER-REVIEW-CHECKLIST.md).
-3. Students revise the same branch.
-4. Show that the pull request updates automatically.
-5. Instructor validates, requests changes, or merges.
-6. Add accepted articles to the Knowledge Base index.
-7. Compare the pull request, merged file, and History.
+Students who already created valid Markdown in a fork of the protected `SOTE-framework` repository do **not** redo the article. They copy their completed Markdown into a new branch in a fork of `CIT-205-classroom`, commit it under `knowledge/student-articles/`, and open the pull request against `CIT-205-classroom:main`.
 
-**Win condition:** students can explain why `main` is current and how GitHub preserves the path to it.
+Use the Monday permissions failure as the architecture example: the content was valid; the contribution destination was wrong.
+
+## Class 3 — Peer Review, Version Control, and Publication
+
+### Opening model
+
+Teach the lifecycle before touching buttons:
+
+**Workspace → Proposal → Review → Accepted Knowledge → Published Knowledge → Operational Canon**
+
+Explain the layers:
+
+- **Personal fork / branch:** contributor workspace.
+- **Pull request:** proposed organizational change.
+- **Peer review:** quality control and collaborative improvement.
+- **Classroom `main`:** accepted classroom knowledge.
+- **SOTE Command Portal:** front-end consumption of accepted classroom knowledge.
+- **SOTE Framework:** protected operational canon; promotion here requires a separate governance review.
+
+### Wednesday sequence
+
+1. Revisit Monday's permission challenge and explain why the classroom repository is now the correct contribution boundary.
+2. Give students who started Monday a short migration window using the note above.
+3. Confirm each student has a pull request targeting `student-operated-technology-ecosystem/CIT-205-classroom:main`.
+4. Assign each student a peer pull request.
+5. Review with the [Peer Review Checklist](../assignments/PEER-REVIEW-CHECKLIST.md).
+6. Students leave actionable feedback: one strength, one gap/risk/unclear point, and one concrete improvement.
+7. Authors revise the **same branch** and commit. Show that the existing pull request updates automatically.
+8. Open **Files changed** and compare the revision. Green is added; red is removed.
+9. Instructor validates, requests changes, or merges.
+10. After the first acceptable merge, open the SOTE Command Portal Knowledge Base and find the newly accepted article there as **Classroom Accepted**.
+11. Compare the pull request, merged file, GitHub History, and portal article. Ask: **Which copy is current, and how can you prove it?**
+12. Close by distinguishing classroom publication from promotion to SOTE operational canon.
+
+**Win condition:** students can explain why `main` is current, how GitHub preserves the path to it, and why a published classroom article is not automatically an authorized operational procedure.
 
 ## Access Model
 
-Because the repository is public, students can read without organization membership and contribute through personal forks. They do not receive access to the private SOTE framework or infrastructure documents. GitHub account sign-in is required to comment, fork, and open a pull request.
+Because the classroom repository is public, students can read without organization membership and contribute through personal forks. They do not receive access to the private SOTE framework or infrastructure documents. GitHub account sign-in is required to comment, fork, and open a pull request.
 
 ## Instructor Validation Gate
 
-Before merging, verify technical accuracy, safe ordering, privacy, scope, verification, and escalation. “Merged” means classroom accepted; it does not automatically promote the article into operational SOTE knowledge.
+Before merging, verify technical accuracy, safe ordering, privacy, scope, verification, and escalation. **Merged** means Classroom Accepted and makes the article eligible for display through the classroom layer of the SOTE Command Portal. It does not automatically promote the article into operational SOTE knowledge.
