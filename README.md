@@ -2,9 +2,9 @@
 
 Welcome to the public classroom workspace for **CIT-205 Help Desk and User Support**.
 
-This repository is where classroom participants learn GitHub, publish scenario-based Knowledge Articles, review one another's work, and observe version control. It contains **classroom learning material only**. It does not grant access to private SOTE infrastructure, operational records, GLPI administration, or student-worker duties.
+This repository is where classroom participants learn GitHub, publish scenario-based Knowledge Articles, review one another's work, build professional evidence, and observe version control. It contains **classroom learning material only**. It does not grant access to private SOTE infrastructure, operational records, GLPI administration, or student-worker duties.
 
-## Three Doors
+## Guided Missions
 
 ### 1. [START HERE](onboarding/START-HERE.md)
 
@@ -18,6 +18,10 @@ Browse the current classroom articles and open a worked example.
 
 Turn one troubleshooting scenario into a Knowledge Article, propose it through a pull request, and participate in peer review.
 
+### 4. [STUDENT PORTFOLIO STARTER](assignments/STUDENT-PORTFOLIO-STARTER.md)
+
+Create a professional GitHub Pages portfolio, publish your first sanitized CIT-205 evidence artifact, and establish the portfolio you will continue building through this course and future CIT/SOTE work.
+
 ## What Each Tool Does
 
 | Tool | Classroom job |
@@ -26,12 +30,13 @@ Turn one troubleshooting scenario into a Knowledge Article, propose it through a
 | GitHub issue | Class check-in, questions, and discussion |
 | GitHub fork and branch | A safe personal working copy |
 | Pull request | Proposed article or revision for review |
+| GitHub Pages | Public professional portfolio and sanitized evidence of work |
 | `main` | Current accepted classroom knowledge |
 | GLPI | Future ticket and support-work record after classroom deployment |
 
 ## Classroom Boundary
 
-Do not publish names, passwords, account numbers, private ticket data, student records, internal network details, or other confidential information. Use fictionalized scenario facts. An article in this repository is instructional material, not authorization to modify a real system.
+Do not publish names, passwords, account numbers, private ticket data, student records, internal network details, or other confidential information. Use fictionalized or sanitized scenario facts. An article in this repository is instructional material, not authorization to modify a real system.
 
 Instructor: Professor Michael Rinsem  
 Framework relationship: This public classroom repository supports the private canonical SOTE framework without exposing its infrastructure documentation.
